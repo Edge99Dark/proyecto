@@ -9,7 +9,7 @@ app.set('port', process.env.PORT || 3000);
 
 app.set('view engine', 'ejs');
 
-
+//codigo en visual studio
 
 app.get('/pagina', (req, res) => {
     res.render('index');
